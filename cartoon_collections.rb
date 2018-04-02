@@ -8,9 +8,9 @@ end
 
 def summon_captain_planet(array)# code an argument here
   array.map { |new_array| new_array.capitalize + "!" }
-  
-end
 
+end
+binding.pry
 def long_planeteer_calls# code an argument here
   # Your code here
 end
