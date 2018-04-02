@@ -7,7 +7,7 @@ def roll_call_dwarves (array)# code an argument here
 end
 
 def summon_captain_planet(array)# code an argument here
-  array.map { |new_array| caps.capitalize  }
+  array.map { |new_array| new_array.capitalize  }
   caps.each { |upcase| puts upcase + "!"}
 end
 
