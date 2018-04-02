@@ -1,3 +1,4 @@
+require 'pry'
 def roll_call_dwarves (array)# code an argument here
   array.each.with_index(1) do |value, index|
     puts "#{index}. #{value}"
