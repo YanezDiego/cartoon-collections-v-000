@@ -7,9 +7,9 @@ end
 
 def summon_captain_planet (array)# code an argument here
   # Your code here
-  array.map! { |caps| caps.capitalize }
+  array.map! {|caps| caps.capitalize }
   caps.each { |upcase| puts upcase + "!"}
-  
+
 end
 
 def long_planeteer_calls# code an argument here
